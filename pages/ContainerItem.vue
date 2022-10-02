@@ -1,8 +1,8 @@
 <template>
   
   <div class="box">
-     <HeaderComponent />
-      <div class="wrapper">
+    <div class="wrapper">
+        <HeaderItem />
         <div class="main-cont-top">
     <h1 class="text">Гидроциклы</h1>
     <div class="main-cont-top_box">
@@ -245,13 +245,13 @@
 <script>
 import GridItem from "../src/components/GridItem.vue";
 import FooterComp from "../src/components/FooterComp.vue";
-import HeaderComponent from "../src/components/HeaderComponent.vue"
+import HeaderItem from "../src/components/HeaderforContainerItem.vue"
 export default {
   name: "ContainerItem",
   components: {
     GridItem,
     FooterComp,
-    HeaderComponent
+    HeaderItem
   },
   data() {
     return {
