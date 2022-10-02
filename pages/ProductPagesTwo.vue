@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import HeaderComponent from "../src/components/HeaderComponent.vue";
+import HeaderComponent from "../src/components/HeaderforContainerItem.vue";
 import Block1Left from "../src/components/Block1Left.vue"
 import Block1Right from "../src/components/Block1Right.vue"
 import Block2Mirsaid from "../src/components/Block2Mirsaid.vue"
