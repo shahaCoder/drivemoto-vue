@@ -1,6 +1,6 @@
 <template>
-    <HeaderComponent></HeaderComponent>
     <div class="container">
+        <HeaderComponent></HeaderComponent>
         <div class="p1">
             <div class="flex">
             <p>Главная</p>
