@@ -24,6 +24,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Barlow";
+  border: none;
 }
 .gidrotsikly {
   width: 100%;
@@ -60,6 +61,7 @@
 }
 .gidrotsikly a {
   font-style: normal;
+  text-decoration: dashed;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
@@ -74,6 +76,9 @@
 @media (max-width: 991.98px) {
     .gidrotsikly button {
         display: none;
+    }
+    .gidrotsikly{
+      display: none;
     }
 }
 

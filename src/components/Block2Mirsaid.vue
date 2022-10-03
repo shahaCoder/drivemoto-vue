@@ -96,7 +96,7 @@
                 <div class="card__list-avialable">В наличии</div>
                 <div class="card__list-num">1</div>
                 <div class="card__list-btn">
-                  <button type="submit">Купить</button>
+                  <button type="submit" class="btn">Купить</button>
                 </div>
               </li>
               <li class="card__list-item none">
@@ -114,7 +114,7 @@
                 <div class="card__list-avialable">В наличии</div>
                 <div class="card__list-num">2</div>
                 <div class="card__list-btn">
-                  <button type="submit">Купить</button>
+                  <button type="submit" class="btn">Купить</button>
                 </div>
               </li>
               <li class="card__list-item none">
@@ -135,7 +135,7 @@
                 <div class="card__list-avialable">Нет в наличии</div>
                 <div class="card__list-num">0</div>
                 <div class="card__list-btn">
-                  <button type="submit">Купить</button>
+                  <button type="submit" class="btn">Купить</button>
                 </div>
               </li>
               <li class="card__list-item none">
@@ -153,7 +153,7 @@
                 <div class="card__list-avialable">Нет в наличии</div>
                 <div class="card__list-num">0</div>
                 <div class="card__list-btn">
-                  <button type="submit">Купить</button>
+                  <button type="submit" class="btn">Купить</button>
                 </div>
               </li>
             </ul>
@@ -403,6 +403,18 @@ h6 {
 
 .coloum_btn button {
   display: none;
+}
+
+.btn{
+  width: 140px;
+  height: 35px;
+  background: #1C62CD;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  color: #FFFFFF;
 }
 
 @media (max-width: 1087px) {

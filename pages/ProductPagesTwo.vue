@@ -42,6 +42,11 @@ export default {
 </script>
 
 <style scoped>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
     width: 70%;
     margin: 46px auto 99px;
@@ -58,7 +63,6 @@ export default {
 .p1 {
     width: 100%;
     display: flex;
-    align-items: center;
 }
 .p1 p{
     color: #c4c4c4;
@@ -80,15 +84,24 @@ export default {
         .container { 
             width: 100%;
         }
-        .p1{
-            flex-direction: column;
-        }
+        
         
     }
 
     @media only screen and (max-width:1300px) {
-        .flex {
+        /* .flex {
+            align-items:flex-start;
+        } */
+        .block1{
+            display: flex;
             flex-direction: column;
+            justify-content: flex-start;
+
         }
+        .p1{
+            flex-direction: column;
+            text-align: left;
+        }
+
     }
 </style>
