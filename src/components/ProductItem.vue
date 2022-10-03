@@ -62,8 +62,6 @@ p {
 }
 
 .box {
-  width: 100%;
-  height: fit-content;
   border-radius: 3px;
   border: 1px solid #cdcdcd;
   position: relative;
@@ -92,7 +90,7 @@ p {
 
 .bag {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   text-align: center;
 }
@@ -149,9 +147,7 @@ p {
 .link {
   text-align: center;
 }
-@media only screen and (max-width: 300px) {
-  .box {
-    width: 200px;
-  }
-}
+
+
+
 </style>

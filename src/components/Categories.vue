@@ -5,7 +5,9 @@
         <a href="#" class="categories__item" v-for="item of data2" :key="item">
           <div class="categories__item-info">
             <h4 class="categories__item-title"> {{ item.title }} </h4>
-            <p class="categories__item-text"> {{ item.title2 }} </p>
+            <router-link to="/info">
+              <p class="categories__item-text"> {{ item.title2 }} </p>
+            </router-link>
           </div>
           <div class="categories__item-img">
             <img :src= item.img   alt="" />

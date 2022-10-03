@@ -67,8 +67,7 @@ body {
   /* height: 700px; */
 }
 
-@media (max-width: 1087px) {
-}
+
 
 @media (max-width: 991.98px) {
   .swiper-slide img {

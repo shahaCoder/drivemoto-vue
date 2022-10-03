@@ -32,6 +32,8 @@
 <script>
 export default {
   name: "GridItem",
+  Components: {
+  },
   data() {
     return {
       arr: [

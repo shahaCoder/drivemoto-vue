@@ -20,7 +20,9 @@
           <p>CКИДКИ на все запчасти до 70%</p>
         </div>
         <div class="right">
-          <button class="btn">ПОСМОТЕТЬ ВСЕ</button>
+          <router-link to="/product">
+            <button class="btn">ПОСМОТЕТЬ ВСЕ</button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -50,6 +52,7 @@ export default {
     ContainerComponent,
     Categories,
     FooterComponent,
+    
   },
 };
 </script>
@@ -63,7 +66,7 @@ export default {
 }
 
 .add-block {
-  width: 70%;
+  width: 100%;
   max-width: 1920px;
   height: fit-content;
   margin: 40px auto;
@@ -96,10 +99,11 @@ export default {
   width: 200px;
   height: 57px;
   background-color: white;
+  border: none;
 }
 
 .flex {
-  width: 65%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,9 +1,9 @@
-@media only screen and (max-width: 990px) {
-    .menu__list {
-        display: none;
+@media only screen and (max-width: 1165px) {
+    .menu__link_ad {
+        display: none !important;
     }
 
-    .header__adress {
+    /* .header__adress {
         display: none;
     }
     .btn {
@@ -16,34 +16,34 @@
 
     .menu__categories__item:nth-child(9) {
         display: none;
-    }
+    } */
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1155px) {
         .menu__categories__item:nth-child(8) {
-            display: none;
+            display: none !important;
         }
 
     }
 
-    @media only screen and (max-width: 730px) {
-        .menu__categories__item:nth-child(7) {
+    @media only screen and (max-width: 1085px) {
+        .menu__adress {
             display: none;
         }
 
     }
-    @media only screen and (max-width: 645px) {
+    @media only screen and (max-width: 1010px) {
         .menu__categories__item:nth-child(6) {
             display: none;
         }
 
     }
-    @media only screen and (max-width: 520px) {
+    @media only screen and (max-width: 840px) {
         .menu__categories__item:nth-child(5) {
             display: none;
         }
     }
 
-    @media only screen and (max-width: 391px) {
+    @media only screen and (max-width: 800px) {
         .menu__list {
             display: none;
         }
@@ -83,6 +83,52 @@
             display: flex !important;
             align-items: center !important;
             justify-content: space-between !important;
+        }
+    }
+
+    @media (max-width: 420px){
+        .menu__categories__item:nth-child(2) {
+            font-size: 14px;
+        }
+        .menu__categories__item:nth-child(1) {
+            font-size: 14px;
+        }
+        .menu__categories__item:nth-child(3) {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 390px){
+        .menu__categories__item:nth-child(3) {
+            font-size: 12px;
+        }
+
+        .categ{
+            justify-content: unset !important;
+            gap: 90px;
+        }
+        
+    }
+    @media (max-width: 350px){
+
+        .categ{
+            justify-content: unset !important;
+            gap: 70px;
+        }
+        
+    }
+    @media (max-width: 300px){
+
+        .categ{
+            justify-content: unset !important;
+            gap: 60px;
+        }
+        
+    }
+
+    @media (max-width: 315px){
+        .logo_text {
+            font-size: 14px;
         }
     }
 }

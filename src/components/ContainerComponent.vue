@@ -56,6 +56,7 @@ export default {
 .btns {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 25px;
 }
@@ -89,14 +90,15 @@ export default {
 }
 
 .block_of_shoxrux {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   margin-bottom: 35px;
 }
 
 .grid-cont {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-content: space-between;
 }
@@ -127,5 +129,21 @@ export default {
 
 .end_btn:hover {
   background-color: #e6e6e8;
+}
+
+@media (max-width: 1150px){
+  .grid-cont{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 815px){
+  .grid-cont{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 650px){
+  .grid-cont{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 </style>

@@ -22,7 +22,9 @@
             <div class="sidebar">
               <ul>
                 <a href="#">
+                  <router-link to="/register">
                   <li><i class="fa fa-enter"></i>Войти</li>
+                </router-link>
                 </a>
                 <a href="#">
                   <li><i class="fa fa-favourites"></i>Избранное</li>
@@ -102,7 +104,9 @@
                 </li>
                 <li class="user__item">
                   <a href="#" class="user__link">
+                    <router-link to="/register">
                     <img src="../assets/user.svg" alt="" />
+                  </router-link>
                   </a>
                 </li>
                 <li class="user__item">

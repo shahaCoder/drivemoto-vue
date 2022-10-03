@@ -3,7 +3,6 @@
     <div class="header__top">
       <div class="container">
         <div class="header__top-inner">
-
           <button class="menu__btn">
             <div class="menu__btn-line"></div>
             <div class="menu__btn-line"></div>
@@ -18,11 +17,12 @@
             </div>
             <span>Menu</span>
           </label>
-
           <div class="sidebar">
             <ul>
               <a href="#">
-                <li><i class="fa fa-enter"></i>Войти</li>
+                <router-link to="/register">
+                  <li><i class="fa fa-enter"></i>Войти</li>
+                </router-link>
               </a>
               <a href="#">
                 <li><i class="fa fa-favourites"></i>Избранное</li>
@@ -71,7 +71,9 @@
                   <li><a href="#">Запчасти</a></li>
                 </option>
               </select>
-              <p class="menu__adress">Москва, ул. Науки 25</p>
+              <a href="https://www.google.com/maps/place/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F/@55.7495689,37.5949062,12.86z/data=!4m5!3m4!1s0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c!8m2!3d55.7558222!4d37.6172948">
+                <p class="menu__adress">Москва, ул. Науки 25</p>
+              </a>
             </ul>
           </div>
           <ul class="menu__list">
@@ -79,7 +81,7 @@
               <a href="#" class="menu__link">Магазины</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Акции</a>
+              <a href="#" class="menu__link menu__link_ad">Акции</a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">Доставка и оплата</a>
@@ -93,7 +95,9 @@
           </a>
 
           <div class="header__box">
-            <p class="header__adress">Москва, ул. Науки 25</p>
+            <a href="https://www.google.com/maps/place/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F/@55.7495689,37.5949062,12.86z/data=!4m5!3m4!1s0x46b54afc73d4b0c9:0x3d44d6cc5757cf4c!8m2!3d55.7558222!4d37.6172948" class="map">
+                <p class="menu__adress">Москва, ул. Науки 25</p>
+              </a>
             <ul class="user__list">
               <li class="user__item">
                 <a href="#" class="user__link">
@@ -102,7 +106,9 @@
               </li>
               <li class="user__item">
                 <a href="#" class="user__link">
-                  <img src="../assets/user.svg" alt="" />
+                  <router-link to="/register">
+                    <img src="../assets/user.svg" alt="" />
+                  </router-link>
                 </a>
               </li>
               <li class="user__item">
@@ -239,6 +245,9 @@ h6 {
   margin: 0;
 }
 
+header p,a{
+  cursor: pointer;
+}
 
 .container {
   width: 100% !important;
@@ -249,6 +258,9 @@ h6 {
   margin-bottom: 80px;
 }
 
+.map{
+  color: black !important;
+}
 
 .header__top-inner {
   display: flex;

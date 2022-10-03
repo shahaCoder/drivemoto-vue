@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ProductPagesTwo from '../pages/ProductPagesTwo.vue'
 import ContainerItem from '../pages/ContainerItem.vue'
 import HomePage from '../pages/HomePage.vue'
+import RegisterComp from "../pages/RegisterComp.vue"
 
 const routes = [
     {  
@@ -19,7 +20,12 @@ const routes = [
        path: '/info',
        name: ProductPagesTwo, 
        component: ProductPagesTwo
-    }
+    },
+    {
+       path: '/register',
+       name: RegisterComp, 
+       component: RegisterComp
+    },
     
   ]
 
